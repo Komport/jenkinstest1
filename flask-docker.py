@@ -1,9 +1,9 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/')
+@app.route("/")
 def hello_world():
-    return 'Changed it up a bit new try1-1'
+    return "Hello World!"
 
-if __name__ == '__main__':
-app.run(debug=True,host='0.0.0.0')
+if __name__ == "__main__":
+    app.run(debug=True,host='0.0.0.0')
