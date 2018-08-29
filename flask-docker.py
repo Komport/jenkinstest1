@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-font = Figlet(font="starwars")
+font = Figlet(font="slant")
 
 @app.route("/")
 def hello_world():
