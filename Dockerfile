@@ -7,4 +7,4 @@ WORKDIR /flask-app
 RUN pip install -r requirements.txt
 ENTRYPOINT ["python"]
 CMD ["flask-docker.py"]
-ENV MESSAGE "IBO IBO IBO"
+ENV MESSAGE "DevOPS AZERBAIJAN"
