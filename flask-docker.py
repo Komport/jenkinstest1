@@ -7,9 +7,8 @@ app = Flask(__name__)
 font = Figlet(font="colossal")
 
 @app.route("/")
-def hello():
-    return "Hello World!"
-
+def index():
+    return "Flask App!"
 
 @app.route("/templates")
 def hello(name):
