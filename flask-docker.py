@@ -7,13 +7,8 @@ app = Flask(__name__)
 font = Figlet(font="colossal")
 
 @app.route("/")
-def hello_world():
-    message = os.getenv("MESSAGE", "no message specified")
-    html_text = font.renderText(message)\
-            .replace(" ","&nbsp;")\
-            .replace(">","&gt;")\
-            .replace("<","&lt;")\
-            .replace("\n","<br>")
-    return "<html><body style='font-family: mono;'>" + html_text + "</body></html>"
+def hello():
+    return "Hello World!"
+ 
 if __name__ == "__main__":
     app.run(debug=True,host='0.0.0.0')
