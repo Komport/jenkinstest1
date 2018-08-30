@@ -1,0 +1,8 @@
+https://medium.com/devopsturkiye/docker-seriyas%C4%B1-iv-hiss%C9%99-docker-compose-n%C9%99dir-294f67df71b5, Doker Seriyası IV hissə. Docker Compose nədir?
+https://medium.com/devopsturkiye/docker-seriyas%C4%B1-iii-hiss%C9%99-dockerfile-docker-image-yaratmaq-105486811358, Docker seriyası III hissə. Dockerfile. Docker Image yaratmaq.
+https://medium.com/devopsturkiye/docker-seriyas%C4%B1-ii-hiss%C9%99-docker-cli-i%CC%87lk-docker-container-i-%C3%A7al%C4%B1%C5%9Fd%C4%B1raq-1ed676b5e479, Docker Seriyası II hissə. Docker CLI. İlk Docker Container-i çalışdıraq.
+https://medium.com/devopsturkiye/docker-seriyas%C4%B1-i-hiss%C9%99-docker-n%C9%99dir-nec%C9%99-i%C5%9Fl%C9%99yir-b57677d92ee6, Docker seriyası I hissə: Docker Nədir? Necə işləyir?
+https://medium.com/devopsturkiye/ansible-istifad%C9%99-ed%C9%99r%C9%99k-aws-%C3%BCz%C9%99rind%C9%99-ec2-rhel-7-instance-qald%C4%B1r%C4%B1b-lamp-server-qurmaq-348186baf7f8, Ansible istifadə edərək AWS üzərində EC2 (Rhel 7) instance qaldırıb LAMP server qurmaq.
+https://medium.com/devopsturkiye/ansible-n%C9%99dir-n%C9%99-%C3%BC%C3%A7%C3%BCn-istifad%C9%99-olunur-ansible-il%C9%99-apache-veb-server-qurmaq-cd6405424d31, Ansible nədir? Nə üçün istifadə olunur? Ansible ilə Apache veb Server qurmaq.
+https://medium.com/devopsturkiye/terraform-hashicorp-b56e447eb9e2, Terraform Hashicorp. Infrastrustucture as Code. AWS infrastrukturumuzu Terraform ilə Kod yazaraq idarə etmək.
+https://medium.com/devopsturkiye/aws-ec2-instance-%C3%BCz%C9%99rind%C9%99-red-hat-enterprise-linux-qald%C4%B1r%C4%B1b-b%C9%99sit-apache-web-server-qurmaq-7604528519d3, AWS EC2 instance üzərində Red Hat Enterprise Linux qaldırıb bəsit Apache web server qurmaq. CertBot (let’s encrypt) vasitəsilə HTTPS sertifikat tətbiq etmək.
