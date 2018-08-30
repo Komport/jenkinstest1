@@ -10,7 +10,7 @@ font = Figlet(font="colossal")
 def index():
     return "Flask App!"
 
-@app.route("/templates")
+@app.route("/templates/<string:name>/")
 def hello(name):
     return render_template(
         'test.html',name=name)
