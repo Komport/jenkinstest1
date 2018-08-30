@@ -4,7 +4,7 @@ app = Flask(__name__)
  
 @app.route("/")
 def index():
-    return "Flask App! Visit <a href='http://127.0.0.1:81/hello/Jackson/'>http://127.0.0.1/hello/Jackson/</a> "
+    return "Flask App!"
  
 @app.route("/hello/<string:name>/")
 def hello(name):
