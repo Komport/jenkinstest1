@@ -1,17 +1,14 @@
-from flask import Flask
-from pyfiglet import Figlet
+from flask import Flask, flash, redirect, render_template, request, session, abort
 import os
 app = Flask(__name__)
-font = Figlet(font="block")
-font = Figlet(font="colossal")
 @app.route("/")
-def hello_world():
-     message = os.getenv("MESSAGE", "no message specified")
-     html_text = font.renderText(message)\
-             .replace(" ","&nbsp;")\
-             .replace(">","&gt;")\
-             .replace("<","&lt;")\
-             .replace("\n","<br>")
-     return "<html><body style='font-family: mono;'>" + html_text + "</body></html>"
- if __name__ == "__main__":
-app.run(debug=True,host='0.0.0.0')
+def index():
+    return "Flask App!"
+ 
+@app.route("/hello/<string:name>/")
+def hello(name):
+    return render_template(
+        'test.html',name=name)
+ 
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=80)
